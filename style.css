@@ -1,14 +1,11 @@
-html {
-
-    width: 100%;
-    max-width: 100%;
+body {
     overflow-x: hidden;
+    background-color: #1B1919;
 }
 
-body {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
+.nails_site{
+    background-color: #FFFBFA;
+    margin: 2px;
 }
 
 .header {
@@ -187,10 +184,10 @@ h1 {
 }
 
 .hands {
-    position: absolute;
+    float: right;
     width: 761px;
     height: 534px;
-    left: 765px;
+    left: 0px;
     top: 153px;
     background-image: url(/images/kisspng-manicure-orchid-nails-spa-pedicure-nail-salon-5af818280e7b55\ 1.png);
     background-repeat: no-repeat;
@@ -364,3 +361,83 @@ h1 {
     height: 50px;
     margin: 20px 125px 96px 125px;
 }
+
+.about_tutor {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 0px 1fr;
+    grid-template-rows: 0px 1fr;
+
+}
+
+.author_tutor {
+    vertical-align: top;
+    text-align: center;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114%;
+    text-transform: uppercase;
+    color: #3E2622;
+}
+
+
+
+.picture {
+    grid-area: 1;
+    background-image: url(/images/Rectangle\ 16.png);
+    width: 520px;
+    height: 520px;
+    margin-left: 75px;
+    margin-top: 150px;
+}
+
+.description {
+    background-image: url(/images//icon_\ color.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: 200px 75px 80px 745px;
+}
+
+.fon {
+    background: linear-gradient(93.04deg, #FFCDB2 26.04%, #EFB6B8 100%);
+    width: 1499.5px;
+    height: 550px;
+    margin-top: 200px;
+}
+
+.name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 114%;
+    color: #1B1919;
+    margin-bottom: -35px;
+}
+
+.block {
+    display: flex;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: -30px;
+    color: #1B1919;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+}
+
+.marker {
+    background-image: url(/images/marker.png);
+    width: 30px;
+    height: 30px;
+    margin: 20px 10px 20px 0px;
+}
+
+.gavno {}
